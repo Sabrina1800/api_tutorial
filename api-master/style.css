@@ -1,0 +1,43 @@
+body {
+  padding: 5px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 1.25rem;
+}
+
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 4px 4px;
+  border-radius: 2px;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Georgia;
+  border-radius: 2px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
